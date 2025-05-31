@@ -18,26 +18,6 @@ const Header = () => {
             <p className="text-xs text-gray-600">100% Natural • Sem Fins Lucrativos</p>
           </div>
         </div>
-        
-        <div className="flex items-center space-x-4">
-          <a 
-            href="https://instagram.com/sucomariaperegrina" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            className="flex items-center space-x-2 text-pink-600 hover:text-pink-700 transition-colors"
-          >
-            <Instagram size={20} />
-            <span className="hidden md:inline">@sucomariaperegrina</span>
-          </a>
-          <a 
-            href="https://wa.me/5517988117656" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            className="bg-green-500 text-white px-4 py-2 rounded-lg hover:bg-green-600 transition-colors"
-          >
-            WhatsApp
-          </a>
-        </div>
       </div>
     </header>
   );
