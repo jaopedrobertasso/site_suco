@@ -100,7 +100,7 @@ const Contact = () => {
                 type="submit"
                 className="w-full bg-gradient-to-r from-orange-500 to-green-500 hover:from-orange-600 hover:to-green-600 text-white py-4 text-lg rounded-lg font-semibold"
               >
-                Quero Assinar e Transformar Vidas
+                Quero Assinar
               </Button>
             </form>
 
