@@ -24,7 +24,7 @@ const Plans = () => {
           <div className="bg-white rounded-2xl shadow-xl overflow-hidden hover-scale transition-all duration-300">
             <div className="relative">
               <img 
-                src="/lovable-uploads/a427abfc-6258-4c3e-8d69-fcd2159e06a5.png" 
+                src="/lovable-uploads/suco1litro.jpeg" 
                 alt="Plano Start - 1 litro semanal"
                 className="w-full h-64 object-cover"
               />
