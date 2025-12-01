@@ -72,7 +72,7 @@ const Plans = () => {
             </div>
             <div className="relative">
               <img 
-                src="/lovable-uploads/a02f6460-a83b-4747-8219-3e9d0c714ea5.png" 
+                src="/lovable-uploads/suco1litro.jpeg" 
                 alt="Plano Top - 2 litros semanais"
                 className="w-full h-64 object-cover"
               />
