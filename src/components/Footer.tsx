@@ -11,7 +11,7 @@ const Footer = () => {
             <div className="flex items-center space-x-2 mb-4">
              <div className="w-14 h-14 flex items-center justify-center">
   <img 
-    src="/lovable-uploads/capa_suco.png"
+    src="/public/capa_suco.png"
     alt="Suco Maria Peregrina Logo"
     className="w-full h-full object-contain"
   />

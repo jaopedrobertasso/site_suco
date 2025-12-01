@@ -8,7 +8,7 @@ const Header = () => {
         <div className="flex items-center space-x-2">
           <div className="w-10 h-10 flex items-center justify-center">
             <img 
-              src="/lovable-uploads/ae549042-b999-4da5-8ec9-b29e8bf8a7ce.png" 
+              src="/public/sucoperfil.jpg" 
               alt="Suco Maria Peregrina Logo"
               className="w-10 h-10 object-contain"
             />
