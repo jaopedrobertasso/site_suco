@@ -1,4 +1,3 @@
-
 import { Leaf, Heart, Recycle, GraduationCap } from 'lucide-react';
 
 const About = () => {
@@ -26,12 +25,14 @@ const About = () => {
   ];
 
   return (
-    <section className="py-20 bg-white">
+    <section id="second-section" className="py-20 bg-white">
       <div className="container mx-auto px-4">
+
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-800 mb-6">
             Uma história de propósito e qualidade
           </h2>
+
           <div className="max-w-4xl mx-auto">
             <p className="text-lg text-gray-600 leading-relaxed">
               Lançado com paixão em dezembro de 2022, o Suco Maria Peregrina oferece saúde e qualidade com impacto social direto. 
@@ -61,6 +62,7 @@ const About = () => {
             <h3 className="text-2xl font-bold text-gray-800 mb-4">
               "Construir a cidade de Deus na cidade dos homens"
             </h3>
+
             <p className="text-gray-700 max-w-3xl mx-auto">
               Nosso suco é mais que um produto - é uma missão. 100% laranja, produzido por pequenos cooperados 
               que respeitam todas as exigências sanitárias. Um produto verdadeiro, sem pegadinhas no rótulo, 
@@ -68,6 +70,7 @@ const About = () => {
             </p>
           </div>
         </div>
+
       </div>
     </section>
   );

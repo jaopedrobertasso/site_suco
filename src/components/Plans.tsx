@@ -1,4 +1,3 @@
-
 import { Button } from '@/components/ui/button';
 import { Check } from 'lucide-react';
 
@@ -19,9 +18,12 @@ const Plans = () => {
           </p>
         </div>
 
+
+
         <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-          {/* Plano Start */}
-          <div className="bg-white rounded-2xl shadow-xl overflow-hidden hover-scale transition-all duration-300">
+
+          {/* PLANO START (mantido igual) */}
+          <div className="bg-white rounded-2xl shadow-xl overflow-hidden hover-scale transition-all duration-300 flex flex-col h-full">
             <div className="relative">
               <img 
                 src="/lovable-uploads/suco1litro.jpeg" 
@@ -32,12 +34,18 @@ const Plans = () => {
                 Plano Start
               </div>
             </div>
-            <div className="p-8">
+
+            <div className="p-8 flex flex-col flex-grow">
               <h3 className="text-2xl font-bold text-gray-800 mb-4">Plano Start</h3>
+
               <div className="mb-6">
-                <span className="text-4xl font-bold text-orange-500">R$ 48</span>
+               <span className="text-4xl font-bold" style={{ color: '#E08042' }}>
+  R$ 48
+</span>
+
                 <span className="text-gray-600">/semana</span>
               </div>
+
               <ul className="space-y-3 mb-8">
                 <li className="flex items-center">
                   <Check className="w-5 h-5 text-green-500 mr-3" />
@@ -56,20 +64,24 @@ const Plans = () => {
                   <span>Apoio direto à educação</span>
                 </li>
               </ul>
+
               <Button 
-                onClick={scrollToForm}
-                className="w-full bg-orange-500 hover:bg-orange-600 text-white py-3 rounded-full"
-              >
-                Assinar Plano Start
-              </Button>
+  onClick={scrollToForm}
+  className="w-full bg-[#E08042] hover:bg-[#cc6f37] text-white py-3 rounded-full mt-auto"
+>
+  Assinar Plano Start
+</Button>
+
             </div>
           </div>
 
-          {/* Plano Top */}
-          <div className="bg-white rounded-2xl shadow-xl overflow-hidden hover-scale transition-all duration-300 relative">
+          {/* PLANO TOP — corrigido para alinhar o botão */}
+          <div className="bg-white rounded-2xl shadow-xl overflow-hidden hover-scale transition-all duration-300 flex flex-col h-full relative">
+
             <div className="absolute top-0 right-0 bg-gradient-to-r from-orange-500 to-red-500 text-white px-4 py-2 rounded-bl-lg text-sm font-semibold z-10">
               Mais Popular
             </div>
+            
             <div className="relative">
               <img 
                 src="/lovable-uploads/suco1litro.jpeg" 
@@ -80,12 +92,19 @@ const Plans = () => {
                 Plano Top
               </div>
             </div>
-            <div className="p-8">
+
+            {/* adicionando o mesmo flex + mt-auto do Start */}
+            <div className="p-8 flex flex-col flex-grow">
               <h3 className="text-2xl font-bold text-gray-800 mb-4">Plano Top</h3>
+
               <div className="mb-6">
-                <span className="text-4xl font-bold text-orange-500">R$ 88</span>
+               <span className="text-4xl font-bold" style={{ color: '#E08042' }}>
+  R$ 88
+</span>
+
                 <span className="text-gray-600">/semana</span>
               </div>
+
               <ul className="space-y-3 mb-8">
                 <li className="flex items-center">
                   <Check className="w-5 h-5 text-green-500 mr-3" />
@@ -108,13 +127,16 @@ const Plans = () => {
                   <span>Economia para a família</span>
                 </li>
               </ul>
+
               <Button 
-                onClick={scrollToForm}
-                className="w-full bg-gradient-to-r from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600 text-white py-3 rounded-full"
-              >
-                Assinar Plano Top
-              </Button>
+  onClick={scrollToForm}
+  className="w-full bg-[#E08042] hover:bg-[#cc6f37] text-white py-3 rounded-full"
+>
+  Assinar Plano Top
+</Button>
+
             </div>
+
           </div>
         </div>
 

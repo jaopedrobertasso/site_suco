@@ -19,17 +19,31 @@ const Hero = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button 
-                onClick={scrollToForm}
-                className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-3 text-lg rounded-full"
-              >
-                Assine Agora
-              </Button>
-              <Button 
-                variant="outline" 
-                className="border-green-500 text-green-600 hover:bg-green-50 px-8 py-3 text-lg rounded-full"
-              >
-                Saiba Mais
-              </Button>
+  onClick={scrollToForm}
+  className="bg-[#E08042] hover:bg-[#cc6f37] text-white px-8 py-3 text-lg rounded-full"
+>
+  Assine Agora
+</Button>
+
+             <Button 
+  variant="outline"
+  onClick={() => {
+    const el = document.getElementById("second-section");
+    el?.scrollIntoView({ behavior: "smooth" });
+  }}
+  className="
+    bg-transparent
+    border-green-500 
+    text-green-600 
+    hover:bg-[#E3FCE1] 
+    hover:text-green-600 
+    px-8 py-3 text-lg rounded-full
+  "
+>
+  Saiba Mais
+</Button>
+
+
             </div>
           </div>
           
@@ -39,6 +53,7 @@ const Hero = () => {
               alt="Escola Maria Peregrina com alunos"
               className="rounded-2xl shadow-2xl w-full h-auto"
             />
+            
             </div>
           </div>
         </div>

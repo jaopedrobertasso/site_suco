@@ -55,12 +55,16 @@ const Testimonials = () => {
           ))}
         </div>
 
-        <div className="text-center mt-12">
-          <div className="bg-gradient-to-r from-orange-500 to-green-500 text-white p-8 rounded-2xl inline-block">
-            <h3 className="text-2xl font-bold mb-2">Fazer o bem faz bem!</h3>
-            <p className="text-lg">Junte-se a centenas de famílias que já transformam vidas</p>
-          </div>
-        </div>
+      <div className="text-center mt-12">
+  <div
+    className="text-white p-8 rounded-2xl inline-block"
+    style={{ backgroundColor: '#BDB42F' }}
+  >
+    <h3 className="text-2xl font-bold mb-2">Fazer o bem faz bem!</h3>
+    <p className="text-lg">Junte-se a centenas de famílias que já transformam vidas</p>
+  </div>
+</div>
+
       </div>
     </section>
   );
