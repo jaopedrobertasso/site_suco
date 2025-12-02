@@ -16,10 +16,15 @@ const Hero = () => {
 </h1>
 
 
-            <p className="text-xl text-gray-600">
-              100% laranja pura, integral e sem fins lucrativos. Cada gole educa o futuro.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4">
+          <p
+  className="text-xl text-gray-600"
+  style={{ fontFamily: "Nunito, sans-serif" }}
+>
+  100% laranja pura, integral e sem fins lucrativos. Cada gole educa o futuro.
+</p>
+
+<div className="flex flex-col sm:flex-row gap-4">
+
               <Button 
   onClick={scrollToForm}
   className="bg-[#E08042] hover:bg-[#cc6f37] text-white px-8 py-3 text-lg rounded-full"

@@ -5,12 +5,20 @@ const About = () => {
     {
       icon: <Leaf className="w-8 h-8 text-green-500" />,
       title: "100% Natural",
-      description: "Apenas suco puro de laranja, sem conservantes ou açúcares adicionados"
+      description: (
+  <span style={{ fontFamily: "Nunito, sans-serif" }}>
+    Apenas suco puro de laranja, sem conservantes ou açúcares adicionados
+  </span>
+)
     },
     {
       icon: <Heart className="w-8 h-8 text-red-500" />,
       title: "Impacto Direto",
-      description: "Sua assinatura mantém a escola gratuita para a comunidade local"
+      description: (
+  <span style={{ fontFamily: "Nunito, sans-serif" }}>
+ Sua assinatura mantém a escola gratuita para a comunidade local
+  </span>
+      ) 
     },
     {
       icon: <Recycle className="w-8 h-8 text-blue-500" />,
@@ -34,11 +42,15 @@ const About = () => {
           </h2>
 
           <div className="max-w-4xl mx-auto">
-            <p className="text-lg text-gray-600 leading-relaxed">
-              Lançado com paixão em dezembro de 2022, o Suco Maria Peregrina oferece saúde e qualidade com impacto social direto. 
-              Produzido com carinho na Fazenda Nossa Senhora Aparecida, em Paraíso-SP, cada assinatura sustenta integralmente a 
-              Escola Maria Peregrina e transforma diariamente a vida de mais de 200 crianças e adolescentes através da educação gratuita.
-            </p>
+           <p
+  className="text-lg text-gray-600 leading-relaxed"
+  style={{ fontFamily: "Nunito, sans-serif" }}
+>
+  Lançado com paixão em dezembro de 2022, o Suco Maria Peregrina oferece saúde e qualidade com impacto social direto. 
+  Produzido com carinho na Fazenda Nossa Senhora Aparecida, em Paraíso-SP, cada assinatura sustenta integralmente a 
+  Escola Maria Peregrina e transforma diariamente a vida de mais de 200 crianças e adolescentes através da educação gratuita.
+</p>
+
           </div>
         </div>
 
@@ -63,11 +75,12 @@ const About = () => {
               "Construir a cidade de Deus na cidade dos homens"
             </h3>
 
-            <p className="text-gray-700 max-w-3xl mx-auto">
-              Nosso suco é mais que um produto - é uma missão. 100% laranja, produzido por pequenos cooperados 
-              que respeitam todas as exigências sanitárias. Um produto verdadeiro, sem pegadinhas no rótulo, 
-              literalmente do campo direto para sua mesa.
-            </p>
+           <p className="text-gray-700 max-w-3xl mx-auto" style={{ fontFamily: "Nunito, sans-serif" }}>
+  Nosso suco é mais que um produto - é uma missão. 100% laranja, produzido por pequenos cooperados 
+  que respeitam todas as exigências sanitárias. Um produto verdadeiro, sem pegadinhas no rótulo, 
+  literalmente do campo direto para sua mesa.
+</p>
+
           </div>
         </div>
 

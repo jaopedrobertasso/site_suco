@@ -13,9 +13,7 @@ const Plans = () => {
           <h2 className="text-4xl font-bold text-gray-800 mb-6">
             Escolha seu plano de assinatura
           </h2>
-          <p className="text-lg text-gray-600">
-            Receba suco fresco em casa toda semana e transforme vidas através da educação
-          </p>
+         
         </div>
 
 
@@ -44,6 +42,7 @@ const Plans = () => {
 </span>
 
                 <span className="text-gray-600">/semana</span>
+                
               </div>
 
               <ul className="space-y-3 mb-8">
