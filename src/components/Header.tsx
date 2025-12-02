@@ -1,16 +1,15 @@
-
 import { Instagram } from 'lucide-react';
 
 const Header = () => {
   return (
     <header className="bg-white shadow-sm sticky top-0 z-50">
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
-        <div className="flex items-center space-x-2">
-          <div className="w-10 h-10 flex items-center justify-center">
+        <div className="flex items-center space-x-3">
+          <div className="w-16 h-16 flex items-center justify-center">
             <img 
               src="/public/sucoperfil.jpg" 
               alt="Suco Maria Peregrina Logo"
-              className="w-10 h-10 object-contain"
+              className="w-16 h-16 object-contain"
             />
           </div>
           <div>

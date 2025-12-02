@@ -10,12 +10,12 @@ const About = () => {
     {
       icon: <Heart className="w-8 h-8 text-red-500" />,
       title: "Impacto Direto",
-      description: "Sua assinatura mantém escolas gratuitas para jovens vulneráveis"
+      description: "Sua assinatura mantém a escola gratuita para a comunidade local"
     },
     {
       icon: <Recycle className="w-8 h-8 text-blue-500" />,
       title: "Sustentabilidade",
-      description: "Casca reutilizada para ração animal, água reciclada como adubo"
+      description: "Material de descarte é reutilizado para ração animal e adubos"
     },
     {
       icon: <GraduationCap className="w-8 h-8 text-purple-500" />,
@@ -36,8 +36,8 @@ const About = () => {
           <div className="max-w-4xl mx-auto">
             <p className="text-lg text-gray-600 leading-relaxed">
               Lançado com paixão em dezembro de 2022, o Suco Maria Peregrina oferece saúde e qualidade com impacto social direto. 
-              Produzido com carinho na Fazenda Nossa Senhora Aparecida, em Paraíso-SP, cada assinatura sustenta integralmente as 
-              Escolas Maria Peregrina, que transformam diariamente a vida de mais de 200 crianças e adolescentes através da educação gratuita.
+              Produzido com carinho na Fazenda Nossa Senhora Aparecida, em Paraíso-SP, cada assinatura sustenta integralmente a 
+              Escola Maria Peregrina e transforma diariamente a vida de mais de 200 crianças e adolescentes através da educação gratuita.
             </p>
           </div>
         </div>

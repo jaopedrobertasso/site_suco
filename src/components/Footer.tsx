@@ -11,7 +11,7 @@ const Footer = () => {
             <div className="flex items-center space-x-2 mb-4">
              <div className="w-14 h-14 flex items-center justify-center">
   <img 
-    src="/public/capa_suco.png"
+    src="/public/capaoficial.png"
     alt="Suco Maria Peregrina Logo"
     className="w-full h-full object-contain"
   />
@@ -33,7 +33,7 @@ const Footer = () => {
             <h4 className="text-white font-semibold mb-4">Contato</h4>
             <div className="space-y-2">
               <p className="text-gray-300">WhatsApp: (17) 98811-7656</p>
-              <p className="text-gray-300">Paraíso - SP</p>
+              <p className="text-gray-300">São José do Rio Preto - SP</p>
 
               <a 
                 href="https://instagram.com/sucomariaperegrina" 
@@ -43,7 +43,7 @@ const Footer = () => {
                 style={{ color: "#F9BE9E" }}
               >
                 <Instagram size={16} className="mr-2" />
-                @sucomariaperegrina
+                sucomariaperegrina
               </a>
             </div>
           </div>

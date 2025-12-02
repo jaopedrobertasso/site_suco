@@ -11,9 +11,11 @@ const Hero = () => {
       <div className="container mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-6 animate-fade-in">
-            <h1 className="text-4xl lg:text-6xl font-bold text-gray-800 leading-tight">
-              Suco natural, <span style= {{ color : "#E08042" }}>propósito real</span>: transforme vidas enquanto cuida da sua saúde!
-            </h1>
+<h1 className="text-4xl lg:text-6xl font-bold text-gray-800 leading-tight">
+  Suco natural, <span style={{ color: "#E08042" }}>propósito real</span><span style={{ color: "#000" }}>:</span> transforme vidas enquanto cuida da sua saúde!
+</h1>
+
+
             <p className="text-xl text-gray-600">
               100% laranja pura, integral e sem fins lucrativos. Cada gole educa o futuro.
             </p>
