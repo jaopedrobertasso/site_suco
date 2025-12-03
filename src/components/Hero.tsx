@@ -28,6 +28,7 @@ const Hero = () => {
               <Button 
   onClick={scrollToForm}
   className="bg-[#E08042] hover:bg-[#cc6f37] text-white px-8 py-3 text-lg rounded-full"
+  
 >
   Assine Agora
 </Button>

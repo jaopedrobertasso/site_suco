@@ -140,7 +140,8 @@ const Plans = () => {
         </div>
 
         <div className="text-center mt-12">
-          <p className="text-gray-600">
+          <p className="text-gray-600"
+           style={{ fontFamily: "Nunito, sans-serif" }}>
             <strong>Importante:</strong> Validade de 10 dias • Manter refrigerado • Consumir em até 24h após aberto
           </p>
         </div>

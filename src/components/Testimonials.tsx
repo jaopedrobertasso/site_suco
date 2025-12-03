@@ -17,7 +17,7 @@ const Testimonials = () => {
     },
     {
       name: "Ana Paula",
-      location: "Paraíso",
+      location: "Paraíso", 
       text: "Suco natural de verdade, sem mentiras no rótulo. E ainda contribuo para uma causa linda. Fazer o bem realmente faz bem!",
       rating: 5
     }
@@ -30,7 +30,8 @@ const Testimonials = () => {
           <h2 className="text-4xl font-bold text-gray-800 mb-6">
             O que nossos assinantes dizem
           </h2>
-          <p className="text-lg text-gray-600">
+          <p className="text-lg text-gray-600"
+           style={{ fontFamily: "Nunito, sans-serif" }}>
             Histórias reais de quem escolheu fazer a diferença
           </p>
         </div>
@@ -61,7 +62,8 @@ const Testimonials = () => {
     style={{ backgroundColor: '#BDB42F' }}
   >
     <h3 className="text-2xl font-bold mb-2">Fazer o bem faz bem!</h3>
-    <p className="text-lg">Junte-se a centenas de famílias que já transformam vidas</p>
+    <p className="text-lg"
+     style={{ fontFamily: "Nunito, sans-serif" }}>Junte-se a centenas de famílias que já transformam vidas</p>
   </div>
 </div>
 
