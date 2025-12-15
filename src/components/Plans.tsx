@@ -38,7 +38,7 @@ const Plans = () => {
 
               <div className="mb-6">
                <span className="text-4xl font-bold" style={{ color: '#E08042' }}>
-  R$ 48
+  R$ 85
 </span>
 
                 <span className="text-gray-600">/semana</span>
@@ -98,7 +98,7 @@ const Plans = () => {
 
               <div className="mb-6">
                <span className="text-4xl font-bold" style={{ color: '#E08042' }}>
-  R$ 88
+  R$ 140
 </span>
 
                 <span className="text-gray-600">/semana</span>

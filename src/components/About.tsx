@@ -13,7 +13,7 @@ const About = () => {
     },
     {
       icon: <Heart className="w-8 h-8 text-red-500" />,
-      title: "Impacto Direto",
+      title: "Impacto direto",
       description: (
   <span style={{ fontFamily: "Nunito, sans-serif" }}>
  Sua assinatura mantém a escola gratuita para a comunidade local
@@ -27,7 +27,7 @@ const About = () => {
     },
     {
       icon: <GraduationCap className="w-8 h-8 text-purple-500" />,
-      title: "Educação Gratuita",
+      title: "Educação gratuita",
       description: "Mais de 200 crianças e adolescentes transformados pela educação"
     }
   ];
