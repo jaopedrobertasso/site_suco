@@ -84,7 +84,7 @@ const Footer = () => {
         <div className="border-t border-gray-700 mt-8 pt-8 text-center">
           <p className="text-gray-400"
            style={{ fontFamily: "Nunito, sans-serif" }}>
-            © 2025 Associação Missões Maria Peregrina. Todos os direitos reservados.
+            © 2026 Associação Missões Maria Peregrina. Todos os direitos reservados.
           </p>
           <p className="text-sm text-gray-500 mt-2"
            style={{ fontFamily: "Nunito, sans-serif" }}>
