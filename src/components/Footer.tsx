@@ -1,4 +1,11 @@
 import { Instagram, ExternalLink } from 'lucide-react';
+import capa from "../assets/capaoficial.png";
+
+<img 
+  src={capa}
+  alt="Suco Maria Peregrina Logo"
+  className="w-full h-full object-contain"
+/>
 
 const Footer = () => {
   return (
@@ -10,11 +17,11 @@ const Footer = () => {
           <div>
             <div className="flex items-center space-x-2 mb-4">
              <div className="w-14 h-14 flex items-center justify-center">
-  <img 
-    src="/public/capaoficial.png"
-    alt="Suco Maria Peregrina Logo"
-    className="w-full h-full object-contain"
-  />
+ <img 
+  src="/capaoficial.png"
+  alt="Suco Maria Peregrina Logo"
+  className="w-full h-full object-contain"
+/>
 </div>
 
               <div>
