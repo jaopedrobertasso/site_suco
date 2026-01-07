@@ -1,4 +1,4 @@
-import { Instagram, ExternalLink } from 'lucide-react';
+import { Instagram, ExternalLink } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -9,25 +9,31 @@ const Footer = () => {
           {/* Coluna 1 */}
           <div>
             <div className="flex items-center space-x-2 mb-4">
-             <div className="w-14 h-14 flex items-center justify-center">
-  <img 
-    src="/public/capaoficial.png"
-    alt="Suco Maria Peregrina Logo"
-    className="w-full h-full object-contain"
-  />
-</div>
+              <div className="w-14 h-14 flex items-center justify-center">
+                <img
+                  src="/capaoficial.png"
+                  alt="Suco Maria Peregrina Logo"
+                  className="w-full h-full object-contain"
+                />
+              </div>
 
               <div>
-                <h3 className="text-white font-bold">Suco Maria Peregrina</h3>
-               <p className="text-sm text-gray-400" 
-  style={{ fontFamily: "Nunito, sans-serif" }}>
-  100% Natural • Sem fins econômicos
-</p>
+                <h3 className="text-white font-bold">
+                  Suco Maria Peregrina
+                </h3>
+                <p
+                  className="text-sm text-gray-400"
+                  style={{ fontFamily: "Nunito, sans-serif" }}
+                >
+                  100% Natural • Sem fins econômicos
+                </p>
               </div>
             </div>
 
-            <p className="text-gray-300"
-             style={{ fontFamily: "Nunito, sans-serif" }}>
+            <p
+              className="text-gray-300"
+              style={{ fontFamily: "Nunito, sans-serif" }}
+            >
               Transformando vidas através da educação, um suco de cada vez.
             </p>
           </div>
@@ -36,20 +42,28 @@ const Footer = () => {
           <div>
             <h4 className="text-white font-semibold mb-4">Contato</h4>
             <div className="space-y-2">
-              <p className="text-gray-300"
-               style={{ fontFamily: "Nunito, sans-serif" }}>WhatsApp: (17) 98811-7656</p>
-              <p className="text-gray-300"
-               style={{ fontFamily: "Nunito, sans-serif" }}>São José do Rio Preto - SP</p>
+              <p
+                className="text-gray-300"
+                style={{ fontFamily: "Nunito, sans-serif" }}
+              >
+                WhatsApp: (17) 98811-7656
+              </p>
 
-              <a 
-                href="https://instagram.com/sucomariaperegrina" 
-                target="_blank" 
+              <p
+                className="text-gray-300"
+                style={{ fontFamily: "Nunito, sans-serif" }}
+              >
+                São José do Rio Preto - SP
+              </p>
+
+              <a
+                href="https://instagram.com/sucomariaperegrina"
+                target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center hover:text-pink-300 transition-colors"
                 style={{ color: "#F9BE9E" }}
               >
-                <Instagram size={16} className="mr-2" /
-                >
+                <Instagram size={16} className="mr-2" />
                 sucomariaperegrina
               </a>
             </div>
@@ -59,9 +73,9 @@ const Footer = () => {
           <div>
             <h4 className="text-white font-semibold mb-4">Transparência</h4>
 
-            <a 
-              href="https://mariaperegrina.org.br" 
-              target="_blank" 
+            <a
+              href="https://mariaperegrina.org.br"
+              target="_blank"
               rel="noopener noreferrer"
               className="flex items-center text-blue-400 hover:text-blue-300 transition-colors mb-4"
             >
@@ -69,32 +83,36 @@ const Footer = () => {
               mariaperegrina.org.br
             </a>
 
-            <p 
-  className="text-gray-300"
-  style={{ fontFamily: "Nunito, sans-serif" }}
->
-  Transparência e compromisso com a educação que transforma gerações.
-</p>
-
+            <p
+              className="text-gray-300"
+              style={{ fontFamily: "Nunito, sans-serif" }}
+            >
+              Transparência e compromisso com a educação que transforma gerações.
+            </p>
           </div>
 
         </div>
 
         {/* Rodapé final */}
         <div className="border-t border-gray-700 mt-8 pt-8 text-center">
-          <p className="text-gray-400"
-           style={{ fontFamily: "Nunito, sans-serif" }}>
+          <p
+            className="text-gray-400"
+            style={{ fontFamily: "Nunito, sans-serif" }}
+          >
             © 2025 Associação Missões Maria Peregrina. Todos os direitos reservados.
           </p>
-          <p className="text-sm text-gray-500 mt-2"
-           style={{ fontFamily: "Nunito, sans-serif" }}>
+
+          <p
+            className="text-sm text-gray-500 mt-2"
+            style={{ fontFamily: "Nunito, sans-serif" }}
+          >
             "Construir a cidade de Deus na cidade dos homens"
           </p>
         </div>
 
       </div>
     </footer>
-  );  
+  );
 };
 
 export default Footer;
