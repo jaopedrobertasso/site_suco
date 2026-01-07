@@ -32,10 +32,6 @@ const Contact = () => {
         }),
       });
 
-
-      if (response.status === 409) {
-        return 
-      }
       if (!response.ok) {
         throw new Error('Erro ao enviar lead');
       }
