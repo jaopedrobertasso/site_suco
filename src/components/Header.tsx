@@ -21,7 +21,7 @@ const Header = () => {
               className="text-xs text-gray-600"
               style={{ fontFamily: "Nunito, sans-serif" }}
             >
-              100% Natural • Sem Fins Lucrativos
+              100% Natural • Sem Fins Econômicos
             </p>
           </div>
         </div>

@@ -1,15 +1,5 @@
-<<<<<<< HEAD
 import { Instagram, ExternalLink } from "lucide-react";
-=======
-import { Instagram, ExternalLink } from 'lucide-react';
 import capa from "../assets/capaoficial.png";
-
-<img 
-  src={capa}
-  alt="Suco Maria Peregrina Logo"
-  className="w-full h-full object-contain"
-/>
->>>>>>> 6a8c6eb80b4020ab0e2c556f0819abbf91c5ea39
 
 const Footer = () => {
   return (
@@ -20,23 +10,13 @@ const Footer = () => {
           {/* Coluna 1 */}
           <div>
             <div className="flex items-center space-x-2 mb-4">
-<<<<<<< HEAD
               <div className="w-14 h-14 flex items-center justify-center">
                 <img
-                  src="/capaoficial.png"
+                  src={capa}
                   alt="Suco Maria Peregrina Logo"
                   className="w-full h-full object-contain"
                 />
               </div>
-=======
-             <div className="w-14 h-14 flex items-center justify-center">
- <img 
-  src="/capaoficial.png"
-  alt="Suco Maria Peregrina Logo"
-  className="w-full h-full object-contain"
-/>
-</div>
->>>>>>> 6a8c6eb80b4020ab0e2c556f0819abbf91c5ea39
 
               <div>
                 <h3 className="text-white font-bold">
@@ -116,17 +96,11 @@ const Footer = () => {
 
         {/* Rodapé final */}
         <div className="border-t border-gray-700 mt-8 pt-8 text-center">
-<<<<<<< HEAD
           <p
             className="text-gray-400"
             style={{ fontFamily: "Nunito, sans-serif" }}
           >
-            © 2025 Associação Missões Maria Peregrina. Todos os direitos reservados.
-=======
-          <p className="text-gray-400"
-           style={{ fontFamily: "Nunito, sans-serif" }}>
             © 2026 Associação Missões Maria Peregrina. Todos os direitos reservados.
->>>>>>> 6a8c6eb80b4020ab0e2c556f0819abbf91c5ea39
           </p>
 
           <p

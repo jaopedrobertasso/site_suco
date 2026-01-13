@@ -20,7 +20,7 @@ const Hero = () => {
   className="text-xl text-gray-600"
   style={{ fontFamily: "Nunito, sans-serif" }}
 >
-  100% laranja pura, integral e sem fins lucrativos. Cada gole educa o futuro.
+  100% laranja pura, integral e sem fins econômicos. Cada gole educa o futuro.
 </p>
 
 <div className="flex flex-col sm:flex-row gap-4">
