@@ -46,9 +46,7 @@ const About = () => {
   className="text-lg text-gray-600 leading-relaxed"
   style={{ fontFamily: "Nunito, sans-serif" }}
 >
-  Lançado com paixão em dezembro de 2022, o Suco Maria Peregrina oferece saúde e qualidade com impacto social direto. 
-  Produzido com carinho na Fazenda Nossa Senhora Aparecida, em Paraíso-SP, cada assinatura sustenta integralmente a 
-  Escola Maria Peregrina e transforma diariamente a vida de mais de 200 crianças e adolescentes através da educação gratuita.
+  Lançado com paixão em dezembro de 2022, o Suco Maria Peregrina oferece saúde e qualidade com impacto social direto. Produzido com carinho, cada assinatura sustenta integralmente a Escola Maria Peregrina, que transforma diariamente a vida de mais de 200 crianças e adolescentes por meio da educação gratuita.
 </p>
 
           </div>
